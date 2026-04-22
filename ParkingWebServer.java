@@ -145,7 +145,7 @@ public class ParkingWebServer {
         <script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
         </head><body><div class='container'>
         <h2>Dashboard Overview</h2>
-        <nav><a href='/'>   Home</a> | <a href='/add'>➕ Add</a> | <a href='/layout'> Layout</a></nav>
+        <nav><a href='/'>   Home</a> | <a href='/add'> Add</a> | <a href='/layout'> Layout</a></nav>
         """);
 
         sb.append("<div class='chart-box'><canvas id='chart' width='280' height='280'></canvas></div>");
