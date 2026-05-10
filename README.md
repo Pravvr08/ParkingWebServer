@@ -14,6 +14,7 @@ It is designed as WebServer instead of traditional system(manual pass or token) 
 
 It uses a lightweight approach without external frameworks, making it easy to run and understand.
 
+
 ## Features
 - Add vehicle entry (name, phone, vehicle number, type)
 - Exit vehicle and update records
