@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 
 public class ParkingWebServer {
     private static final int PORT = 8000;
-    private static final int TWO_WHEELER_CAPACITY = 140; // reduced from 400
+    private static final int TWO_WHEELER_CAPACITY = 140; // reduced
     private static final int CAR_CAPACITY = 100;
     private static final File DB = new File("student_database.txt");
     private static final SimpleDateFormat TIME_FMT = new SimpleDateFormat("HH:mm:ss");
