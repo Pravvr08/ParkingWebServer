@@ -328,7 +328,7 @@ public class ParkingWebServer {
         ex.sendResponseHeaders(200, bs.length);
         try (OutputStream os = ex.getResponseBody()) { os.write(bs); }
     }
-
+//ok
     private static class Record {
         String name, phone, vehicle, type, entryTime, exitTime;
         Record(String n,String p,String v,String t,String e,String x){name=n;phone=p;vehicle=v;type=t;entryTime=e;exitTime=x;}
