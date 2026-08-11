@@ -34,6 +34,9 @@ It uses a lightweight approach without external frameworks, making it easy to ru
 - Chart.js (for dashboard visualization)
 - File Handling (.txt database)
 
+
+
+
 ## Project Structure
 - ParkingWebServer.java   --> Main server file
 - student_database.txt   --> Stores parking records (Will Create Automatically)
