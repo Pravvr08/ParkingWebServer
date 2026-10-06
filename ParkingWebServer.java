@@ -119,7 +119,7 @@ public class ParkingWebServer {
         }
         redirectWithMessage(ex, "/add", message);
     }
-// Hand
+// Ha
     private void handleExit(HttpExchange ex) throws IOException {
         Map<String, String> params = parsePostParameters(ex);
         String vehicle = params.getOrDefault("vehicle", "").trim().toUpperCase();
